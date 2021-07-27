@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "hulu-webpage-clone-tm",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
